@@ -24,10 +24,10 @@ class Main extends PluginBase implements Listener{
         $e->setDeathMessage("");
     }
 
-    public function onPlayerDeath(PlayerJoinEvent $e){
+    public function onPlayerJoin(PlayerJoinEvent $e){
         $e->setJoinMessage("");
     }
 
-    public function onPlayerDeath(PlayerQuitEvent $e){
+    public function onPlayerQuit(PlayerQuitEvent $e){
         $e->setQuitMessage("");
 }
