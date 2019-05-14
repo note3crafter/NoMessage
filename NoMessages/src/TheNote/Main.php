@@ -30,4 +30,5 @@ class Main extends PluginBase implements Listener{
 
     public function onPlayerQuit(PlayerQuitEvent $e){
         $e->setQuitMessage("");
+    }
 }
